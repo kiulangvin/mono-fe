@@ -1,0 +1,5 @@
+packages:
+  # 匹配apps目录下的直接子目录
+  - 'apps/*'
+  # 匹配packages目录下的直接子目录
+  - 'packages/*'
