@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
-    "prepare": "husky"
+    "prepare": "husky",
+    "start:sso": "pnpm --filter sso-auth start:dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "engines": {
-    "node": "20.19.0",
+    "node": "20.19.3",
     "pnpm": "10.13.0"
   },
   "devDependencies": {
